@@ -39,7 +39,7 @@ const Invitation = () => {
           <span className='text-sm mt-2'>RSVP to the Captain's 1st Mate</span>
           <span className='text-lg font-semibold'>
             <a
-              href='sms://818-809-8454?body=Ahoy%20Matey!%20We%20will%20be%20there%20to%20celebrate%20with%20Captain%20Keane.%20Number%20of%20scallywags:%20Adults%20Children'
+              href='sms://818-809-8454?body=Ahoy%20Matey!%20We%20will%20be%20there%20to%20celebrate%20with%20Captain%20Keane.%20Number%20of%20scallywags%20Adults%20Children'
               target='_blank'
               rel='noreferrer'
               className='underline text-inherit text-sm z-50 pointer-events-auto'
