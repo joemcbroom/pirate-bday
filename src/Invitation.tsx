@@ -43,7 +43,13 @@ const Invitation = () => {
               className='underline text-inherit text-sm z-50 pointer-events-auto'
             >
               818-809-8379
-              <span className='block text-xs'>(Joe's Cell)</span>
+              <span className='flex items-center justify-center text-xs gap-1'>
+                (Joe's Cell)
+                <img
+                  className='inline w-3 h-3'
+                  src='/src/assets/paper-plane.png'
+                />{' '}
+              </span>
             </a>
           </span>
         </div>
