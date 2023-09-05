@@ -1,3 +1,5 @@
+import paperPlane from './assets/paper-plane.png';
+
 const Invitation = () => {
   return (
     <div className='w-full mx-auto h-full absolute text-zinc-800 z-50'>
@@ -47,11 +49,12 @@ const Invitation = () => {
                 (Joe's Cell)
                 <img
                   className='inline w-3 h-3'
-                  src='/src/assets/paper-plane.png'
+                  src={paperPlane}
                 />{' '}
               </span>
             </a>
           </span>
+          <span className='text-sm mt-2'>Pirate Costumes Encouraged!</span>
         </div>
       </div>
     </div>
